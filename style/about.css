@@ -148,10 +148,7 @@ body {
 }
 .index_aside_oval_row{
     margin-bottom: 148px;
-    display: flex;
-    align-items: center;
 }
-
 .aside_container{
     margin-top: 200px;
 }
@@ -610,10 +607,6 @@ body {
     padding-right: 10px;
 }
 
-.aside_row{
-    align-items: baseline;
-}
-
 .footer--logo{
     padding-top: 47px;
 }
@@ -751,6 +744,15 @@ width: 602px;
     border-radius: 5px;
     padding: 100px;
 }
+
+
+
+.tablet_img{
+    display: none;
+}
+
+
+
 .main_about_container{
     display: flex;
     align-items: center;
@@ -794,6 +796,8 @@ width: 602px;
 }
 
 
+
+
 @media only screen and (max-width: 1440px) {
 
     * {
@@ -804,6 +808,7 @@ width: 602px;
 
     .container {
         max-width: 688px;
+        margin: 0 auto;
     }
 
     .header_intro {
@@ -822,80 +827,42 @@ width: 602px;
         margin-bottom: 40px;
     }
 
-    .main_row {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 536px;
+    .header_intro_cont{
+        max-width: 300px;
+        text-align-last: left;
     }
 
-    .main_col{
-        display: flex;
-        align-items: center;
+    .main_about_container{
+        margin-left: 50px;
     }
 
-    .main_col_text p{
-        margin-bottom: 74px;
-        height: 50px;
-        width: 282px;
-        text-align: left;
+    .main_about_container{
+        gap: 50px;
     }
 
-    .main_col_text h4{
-        margin-bottom: 14px;
-        height: 50px;
-        width: 182px;
-        text-align: left;
+    .main_about_container img{
+        width: 280px;
     }
 
-    .main_bg{
-        background-position: top;
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 50px;
-    }
-
-    .section_container{
-        margin-top: -130px;
-    }
-
-    .section_row{
-        bottom: -250px;
-        margin-left: -30px;
-        justify-content: center;
+    .tablet_img{
         position: absolute;
-        gap: 30px;
-        display: flex;
-        flex-wrap: wrap;
-        /* align-items: center;*/
+        bottom: 500px;
+        justify-content: center;
+        max-width: 550px;
+    }
+    
+    .desctop_img{
+        display: none;
     }
 
-    .section_col{
-        display: flex;
-        gap: 20px;
+    .section_about_text{
+        margin-top: 150px;
+        text-align: center;
+        justify-content: center;
+        max-width: 540px;
     }
-
-    .media_quality{
-        width: 344px;
-        text-align: left;
-    }
-
-    .section_col_bg{
-        width: 573px;
-    }
-
-    .section_cont{
-        margin-bottom: 70px;
-    }
-
-    .section_bg{
-        padding-bottom: 288px;
-        margin-bottom: 434px;
-    }
-
-    .aside_row{
-        align-items: baseline;
+    .aside_about_row{
+        gap: 40px;
     }
 
     .footer_nav{
@@ -922,15 +889,9 @@ width: 602px;
 
 
 @media only screen and (max-width: 655px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     .container {
-        max-width: 327px;
+        max-width: 688px;
+        margin: 0 auto;
     }
 
     .mobile-icon {
@@ -945,108 +906,82 @@ width: 602px;
     }
 
     .header_intro {
-        margin-left: 50px;
-        margin-top: 40px;
+        justify-content: center;
+        margin-top: 54px;
     }
 
     .header_intro h1 {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 48px;
+        line-height: 48px;
         margin-bottom: 24px;
     }
 
     .header_intro_cont p {
         font-size: 15px;
-        max-width: 280px;
-        line-height: 15px;
+        line-height: 25px;
         margin-bottom: 40px;
     }
 
-    .header_intro_cont button{
-        font-size: 8px;
+    .header_intro_cont{
+        max-width: 300px;
+        text-align-last: left;
     }
 
-    .main_row {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 536px;
-    }
-
-    .main_col{
+    .main_about_container{
         display: block;
     }
 
-    .main_col_text p{
-        margin-bottom: 74px;
-        height: 50px;
-        width: 282px;
-        text-align: left;
+    .main_about_container{
+        text-align: center;
+        gap: 50px;
     }
 
-    .main_col_text h4{
-        margin-bottom: 14px;
-        height: 50px;
-        width: 182px;
-        text-align: left;
-    }
-
-    .main_bg{
-        background-position: top;
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 50px;
-    }
-
-    .section_container{
-        margin-top: -130px;
-    }
-
-    .section_row{
-        bottom: -550px;
-        margin-left: 36px;
+    .main_about_container img{
+        width: 280px;
         justify-content: center;
+    }
+
+    .tablet_img{
         position: absolute;
-        gap: 30px;
+        bottom: 500px;
+        justify-content: center;
+        max-width: 400px;
+        
+    }
+
+    .main_about_container{
+        margin-left: 200px;
+    }
+
+    .section_about_bg{
+        margin-top: 100px;
+        background-color: #2C343E;
+        padding: 200px 100px 200px 100px;
+        position: relative;
         display: flex;
-        flex-wrap: wrap;
-        max-width: 80px;
-        /* align-items: center;*/
+        color: #fff;
+        margin-bottom: 220px;
     }
-
-    .section_col{
-        display: block;
-        gap: 20px;
-
-    }
-
-    .media_quality{
-        width: 112px;
-        text-align: center;
-    }
-
-    .section_col_bg{
-        width: 573px;
-    }
-
-    .section_cont{
-        margin-bottom: 70px;
-    }
-
-    .section_bg{
-        padding-bottom: 400px;
-        margin-bottom: 634px;
-    }
-
-    .aside_row{
-        align-items: baseline;
-        display: block;
-        text-align: center;
-    }
-
-    .index_aside_oval_row{
+    
+    .desctop_img{
         display: none;
+    }
+
+    .section_about_text{
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+        max-width: 540px;
+    }
+    .aside_about_row{
+        gap: 40px;
+        display: block;
+        justify-content: center;
+    }
+
+    .aside_about_container{
+        text-align: center;
+        align-items: center;
     }
 
     .footer_nav{
