@@ -833,7 +833,7 @@ width: 602px;
     }
 
     .main_about_container{
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .main_about_container{
@@ -929,6 +929,7 @@ width: 602px;
 
     .main_about_container{
         display: block;
+        margin-left: 0px;
     }
 
     .main_about_container{
@@ -947,10 +948,6 @@ width: 602px;
         justify-content: center;
         max-width: 400px;
         
-    }
-
-    .main_about_container{
-        margin-left: 200px;
     }
 
     .section_about_bg{
